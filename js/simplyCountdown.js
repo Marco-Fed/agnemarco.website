@@ -115,8 +115,8 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2024,
-                month: 8,
+                year: 2025,
+                month: 1,
                 day: 25,
                 hours: 10,
                 minutes: 30,
@@ -130,11 +130,11 @@
                 },
                 plural: true,
                 inline: false,
-                enableUtc: true,
+                enableUtc: false,
                 onEnd: function () {
                     return;
                 },
-                refresh: 10,
+                refresh: 1000,
                 inlineClass: 'simply-countdown-inline',
                 sectionClass: 'simply-section',
                 amountClass: 'simply-amount',
