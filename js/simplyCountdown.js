@@ -134,7 +134,7 @@
                 onEnd: function () {
                     return;
                 },
-                refresh: 1000,
+                refresh: 10,
                 inlineClass: 'simply-countdown-inline',
                 sectionClass: 'simply-section',
                 amountClass: 'simply-amount',
